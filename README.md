@@ -2,6 +2,24 @@
 
 exp_build 是用于生成包含大写字母小写字母数字特殊字符和最小长度的正则字符串，主要用于自动生成密码正则。
 
+## 使用
+
+```bash
+npm install exp_build
+```
+
+```javascript
+import expBuild from "exp_build";
+
+expBuild({
+  upper: true,
+  lower: true,
+  number: true,
+  symbol: true,
+  length: 8
+});
+```
+
 ## 参数
 
 | 参数   | 默认值 | 含义           |
