@@ -17,7 +17,7 @@ expBuild({
   number: true,
   symbol: true,
   length: 8
-});
+}).test("aaAs3r?tddddddddd");
 ```
 
 ## 参数

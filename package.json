@@ -2,7 +2,7 @@
   "name": "exp_build",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/main.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
