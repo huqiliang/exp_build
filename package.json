@@ -1,15 +1,21 @@
 {
   "name": "exp_build",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "src/index.js",
+  "repository": "git+https://github.com/huqiliang/exp_build",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "exp",
+    "build",
+    "exp_build",
+    "password"
+  ],
+  "author": "huqiliang",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.2",
