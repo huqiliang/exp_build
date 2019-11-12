@@ -1,4 +1,4 @@
-export default ({
+const expBuild = ({
   upper = false,
   lower = false,
   number = false,
@@ -16,3 +16,6 @@ export default ({
     `${start}${upperExp}${lowerExp}${numberExp}${symbolExp}${lengthExp}${end}`
   );
 };
+typeof window !== "undefined"
+  ? (window.expBuild = expBuild)
+  : (module.defaults = expBuild);
